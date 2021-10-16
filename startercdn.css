@@ -1,0 +1,40 @@
+/* Reset everything, normalizing style */
+
+*, *::after, *::before {
+    margin:0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+
+    background-color: #ffffff;
+    color: #000000;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Standarts */
+
+.text-center {
+    text-align: center;
+}
+
+.center-marg {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color-black {
+    color: #000000;
+}
+
+.color-white {
+    color: #ffffff;
+}
